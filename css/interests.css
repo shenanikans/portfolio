@@ -35,7 +35,7 @@ body {
     font-family: 'StarJedi', sans-serif;
 }
 
-.stormtrooper-speech {
+.luke-speech {
     display: flex;
     align-items: center;
     justify-content: flex-end;  
@@ -44,7 +44,7 @@ body {
 }  
 
 .pfp {
-    width: 230px;
+    width: 200px;
     height: auto;
     border-radius: 50%;
 }
@@ -59,6 +59,6 @@ body {
 }
 
 .scroll-wrapper {
-    max-height: 500px;       
+    max-height: 900px;       
     overflow-y: auto;
 }  
