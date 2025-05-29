@@ -1,54 +1,66 @@
 body {
-    background-image: url(../assets/star-wars-backgrounds-25_bc15ec98.jpeg);
+    background-image: url(../assets/star-wars-background.jpeg);
     background-position: center;
     margin: 20px;
 }
 
-.pfp1 {
+.pfp {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin-left: 10%;
-    margin-top: 5%;
+    transition: transform 0.3s;
 }
-.pfp2 {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin-left: 5%;
-    margin-top: 5%;
+
+.pfp:hover {
+    transform: scale(1.1); 
 }
-.pfp3 {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin-left: 5%;
-    margin-top: 5%;
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 40px;
 }
-.pfp4 {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin-left: 5%;
-    margin-top: 5%;
+
+.image-with-label {
+    text-align: center;
+    color: #FFE81F;
+    font-family: 'StarJedi', sans-serif;
+    font-size: 1.2rem;
 }
+
+.label {
+    margin-top: 10px;
+}
+
 @font-face {
     font-family: 'StarJedi';
     src: url(../assets/fonts/Starjedi.ttf) format('truetype');
 }
 
 h1 {
-    color: white;
+    color: #FFE81F;
     text-align: center;
     font-size: 500%;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
-
-
-p {
-    color: white;
-    font-size: 500%;
+.intro {
+    color: #FFE81F;
+    font-size: 200%;
     font-family: 'StarJedi', sans-serif;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.click-here {
+    color: #FFE81F;
+    font-size: 120%;
+    font-family: 'StarJedi', sans-serif;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 
