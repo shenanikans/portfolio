@@ -1,0 +1,64 @@
+body {
+    background-image: url(../assets/star-wars-background.jpeg);
+    background-position: center;
+    margin: 20px;
+}
+
+.home-button {
+    color: #FFE81F;
+    font-family: 'StarJedi', sans-serif;
+    font-size: 200%;
+}
+
+.scroll-message {
+    color: #1cf139;
+    font-family: 'StarJedi', sans-serif;
+    font-size: 150%;
+    font-style: italic;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.convo-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}  
+
+.yoda-speech {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: 'StarJedi', sans-serif;
+}
+
+.stormtrooper-speech {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;  
+    gap: 20px;
+    font-family: 'StarJedi', sans-serif;
+}  
+
+.pfp {
+    width: 230px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.speech-bubble {
+    max-width: 700px;
+    padding: 25px 25px;
+    border-radius: 15px;
+    background-color: #f0f0f0;
+    position: relative;
+    font-size: 125%;
+}
+
+.scroll-wrapper {
+    max-height: 500px;       
+    overflow-y: auto;
+}  
