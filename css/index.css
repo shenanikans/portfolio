@@ -27,7 +27,7 @@ body {
 .image-with-label {
     text-align: center;
     color: #FFE81F;
-    font-family: 'StarJedi', sans-serif;
+    font-family: 'Orbitron', 'Eurostile', 'Arial Black', sans-serif;
     font-size: 1.2rem;
 }
 
@@ -35,22 +35,20 @@ body {
     margin-top: 10px;
 }
 
-@font-face {
-    font-family: 'StarJedi';
-    src: url(../assets/fonts/Starjedi.ttf) format('truetype');
-}
+/* Removed StarJedi font-face */
 
 h1 {
     color: #FFE81F;
     text-align: center;
     font-size: 500%;
     background-color: rgba(0, 0, 0, 0.3);
+    font-family: 'Orbitron', 'Eurostile', 'Arial Black', sans-serif;
 }
 
 .intro {
     color: #FFE81F;
     font-size: 200%;
-    font-family: 'StarJedi', sans-serif;
+    font-family: 'Orbitron', 'Eurostile', 'Arial Black', sans-serif;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.3);
 }
@@ -58,13 +56,11 @@ h1 {
 .click-here {
     color: #FFE81F;
     font-size: 120%;
-    font-family: 'StarJedi', sans-serif;
+    font-family: 'Orbitron', 'Eurostile', 'Arial Black', sans-serif;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-
 .star-wars-text {
-    font-family: 'StarJedi', sans-serif;
+    font-family: 'Orbitron', 'Eurostile', 'Arial Black', sans-serif;
 }
-
